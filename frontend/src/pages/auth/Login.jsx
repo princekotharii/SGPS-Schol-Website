@@ -178,10 +178,10 @@ const Login = () => {
             <div className={styles.demoCredentials}>
               <p className={styles.demoTitle}>Demo Credentials:</p>
               <p>
-                <strong>Email:</strong> admin@sgps.edu
+                {/* <strong>Email:</strong> admin@sgps.edu */}
               </p>
               <p>
-                <strong>Password:</strong> admin123
+                {/* <strong>Password:</strong> admin123 */}
               </p>
             </div>
 
