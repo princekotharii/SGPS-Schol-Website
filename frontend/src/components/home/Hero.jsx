@@ -25,7 +25,7 @@ const Hero = () => {
             </h1>
 
             <p className={styles.description}>
-              Join SGPS School, where excellence meets innovation. We nurture
+              Join Shivalik Ganges Public School, where excellence meets innovation. We nurture
               creativity, build character, and inspire lifelong learning in a
               safe and supportive environment.
             </p>
@@ -64,7 +64,7 @@ const Hero = () => {
           <div className={styles.imageContent}>
             <div className={styles.imageWrapper}>
               <img
-                src="/images/hero-students.jpg"
+                src="https://scontent.fdel27-5.fna.fbcdn.net/v/t39.30808-6/581556076_1295389995937707_6798146462719465160_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=JXHg5pXIB48Q7kNvwEwOfFG&_nc_oc=AdkwzFgg-gSF2Ke5JEE2Dqi8DePJ8Cy1Uv51DK7YIO8iYCmdiTVJDUZjvZ4OLwe7RZIjNscUQEisM9GNBXQFbZuS&_nc_zt=23&_nc_ht=scontent.fdel27-5.fna&_nc_gid=OrYW4TTsmq_pbEWVUAa6xw&oh=00_AfjW9NNsl-W4_35SnPoQQSIOpgsTwGTTdb2KXcCMwo_sEA&oe=691F6CD2"
                 alt="Happy students"
                 className={styles.heroImage}
                 onError={(e) => {
