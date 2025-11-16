@@ -136,10 +136,12 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className={styles.footerBottom}>
           <p className={styles.copyright}>
-            © {currentYear} SGPS School. All rights reserved.
+            © {currentYear}  All rights reserved to Shivalik Ganges Public School. <br />
+          <a href="https://www.sgps.in/">This is Redesign Version of Official Website <span className='text-blue-500'> (Official Link of Site)</span></a>
+
           </p>
           <p className={styles.madeWith}>
-            Made with <FaHeart className={styles.heartIcon} /> by SGPS Tech Team
+            Made with <FaHeart className={styles.heartIcon} /> by Prince Kothari 
           </p>
         </div>
       </div>
