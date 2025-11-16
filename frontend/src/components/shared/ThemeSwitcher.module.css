@@ -1,0 +1,126 @@
+.themeSwitcher {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: var(--z-fixed);
+}
+
+.toggleButton {
+  width: 60px;
+  height: 60px;
+  border-radius: var(--radius-full);
+  background: var(--primary-gradient);
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: var(--shadow-lg);
+  transition: all var(--transition-base);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggleButton:hover {
+  transform: scale(1.1) rotate(15deg);
+  box-shadow: var(--shadow-xl);
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: var(--z-dropdown);
+}
+
+.themeMenu {
+  position: absolute;
+  bottom: 80px;
+  right: 0;
+  background: var(--background);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  padding: 1.5rem;
+  min-width: 220px;
+  border: 1px solid var(--border-color);
+  z-index: calc(var(--z-dropdown) + 1);
+  animation: slideUp 0.2s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.themeMenu h3 {
+  margin: 0 0 1rem 0;
+  font-size: var(--text-lg);
+  color: var(--text-primary);
+}
+
+.themeGrid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.themeOption {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background: var(--background);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  width: 100%;
+  text-align: left;
+}
+
+.themeOption:hover {
+  border-color: var(--primary-color);
+  transform: translateX(5px);
+}
+
+.themeOption.active {
+  border-color: var(--primary-color);
+  background: var(--background-secondary);
+}
+
+.themeColor {
+  width: 30px;
+  height: 30px;
+  border-radius: var(--radius-md);
+  border: 2px solid var(--border-color);
+  flex-shrink: 0;
+}
+
+.themeOption span {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  .themeSwitcher {
+    bottom: 1rem;
+    right: 1rem;
+  }
+
+  .toggleButton {
+    width: 50px;
+    height: 50px;
+    font-size: 1.25rem;
+  }
+
+  .themeMenu {
+    min-width: 200px;
+  }
+}

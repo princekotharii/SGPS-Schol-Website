@@ -1,0 +1,18 @@
+/* Green Nature Theme */
+:root[data-theme='green'] {
+  /* Primary Colors */
+  --primary-color: #059669;
+  --primary-light: #10b981;
+  --primary-dark: #047857;
+  --primary-gradient: linear-gradient(135deg, #059669 0%, #047857 100%);
+
+  /* Secondary Colors */
+  --secondary-color: #8b5cf6;
+  --secondary-light: #a78bfa;
+  --secondary-dark: #7c3aed;
+
+  /* Accent Colors */
+  --accent-color: #f59e0b;
+  --accent-light: #fbbf24;
+  --accent-dark: #d97706;
+}
