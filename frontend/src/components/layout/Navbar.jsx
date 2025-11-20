@@ -32,9 +32,9 @@ const Navbar = () => {
         <div className={styles.navContent}>
           {/* Logo */}
           <Link to="/" className={styles.logo}>
-            <div className={styles.logoIcon}>SGPS</div>
+            <div className={styles.logoIcon}>DPS</div>
             <div className={styles.logoText}>
-              <span className={styles.schoolName}>SGPS School</span>
+              <span className={styles.schoolName}>DPS </span>
               <span className={styles.tagline}>Excellence in Education</span>
             </div>
           </Link>
