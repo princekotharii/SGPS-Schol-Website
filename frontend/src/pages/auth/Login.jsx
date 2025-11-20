@@ -78,8 +78,8 @@ const Login = () => {
         <div className={styles.brandingSide}>
           <div className={styles.brandingContent}>
             <div className={styles.logo}>
-              <div className={styles.logoIcon}>SGPS</div>
-              <h1>SGPS School</h1>
+              <div className={styles.logoIcon}>DPS</div>
+              <h1>DPS School</h1>
             </div>
             <h2>Admin Panel</h2>
             <p>
@@ -176,7 +176,7 @@ const Login = () => {
             </form>
 
             <div className={styles.demoCredentials}>
-              <p className={styles.demoTitle}>Demo Credentials:</p>
+              {/* <p className={styles.demoTitle}>Demo Credentials:</p> */}
               <p>
                 {/* <strong>Email:</strong> admin@sgps.edu */}
               </p>
