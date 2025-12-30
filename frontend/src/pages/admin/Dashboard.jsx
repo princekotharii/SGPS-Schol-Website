@@ -140,7 +140,7 @@ const Dashboard = () => {
       </div>
 
       {/* Placeholder Info */}
-      <div className={styles.infoBox}>
+      {/* <div className={styles.infoBox}>
         <h3>📌 Note</h3>
         <p>
           This is a placeholder dashboard. The actual admin functionality
@@ -150,7 +150,7 @@ const Dashboard = () => {
         <p>
           All data shown here is dummy data for demonstration purposes.
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };
