@@ -36,12 +36,11 @@ const Footer = () => {
           {/* About Section */}
           <div className={styles.footerSection}>
             <div className={styles.logoSection}>
-              <div className={styles.logoIcon}>DPS</div>
-              <h3>DPS School</h3>
+              <div className={styles.logoIcon}>SGPS</div>
+              <h3>SGPS School</h3>
             </div>
             <p className={styles.description}>
-              Nurturing young minds since 1995. We are committed to providing
-              quality education and holistic development for every student.
+              The school campus is located in a pollution free environment, away from the hustle bustle of the city and safely from the national highway in the greens of Shivalik Range.
             </p>
             <div className={styles.socialLinks}>
               {socialLinks.map((social) => {
@@ -136,8 +135,8 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className={styles.footerBottom}>
           <p className={styles.copyright}>
-            © {currentYear}  All rights reserved to Delhi Public School. <br />
-          {/* <a href="https://www.sgps.in/">This is Redesign Version of Official Website <span className='text-blue-500'> (Official Link of Site)</span></a> */}
+            © {currentYear}  All rights reserved to Shivalik Ganges Public School. <br />
+          <a href="https://www.sgps.in/">This is Redesign Version of Official Website <span className='text-blue-500'> (Official Link of Site)</span></a>
 
           </p>
           <p className={styles.madeWith}>
