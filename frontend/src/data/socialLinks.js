@@ -41,8 +41,8 @@ export const socialLinks = [
 export const contactInfo = {
   phone: '+91-9876543210',
   email: 'info@sgpsschool.edu',
-  address: 'Plot No. 123, Sector 45, New Delhi - 110001',
-  timings: 'Mon - Sat: 8:00 AM - 3:00 PM',
+  address: 'Dehradun-Roorkee Highway, Bhagwanpur, Uttarakhand 247661',
+  timings: 'Mon - Sat: 8:00 AM - 2:00 PM',
 };
 
 export default { socialLinks, contactInfo };
